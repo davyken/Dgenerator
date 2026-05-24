@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- QR corner squares (top-left) -->
+  <rect x="8" y="8" width="14" height="14" rx="2.5" fill="white" opacity="0.95"/>
+  <rect x="11" y="11" width="8" height="8" rx="1" fill="#7c3aed"/>
+  <rect x="13" y="13" width="4" height="4" rx="0.5" fill="white"/>
+
+  <!-- QR corner squares (top-right) -->
+  <rect x="42" y="8" width="14" height="14" rx="2.5" fill="white" opacity="0.95"/>
+  <rect x="45" y="11" width="8" height="8" rx="1" fill="#7c3aed"/>
+  <rect x="47" y="13" width="4" height="4" rx="0.5" fill="white"/>
+
+  <!-- QR corner squares (bottom-left) -->
+  <rect x="8" y="42" width="14" height="14" rx="2.5" fill="white" opacity="0.95"/>
+  <rect x="11" y="45" width="8" height="8" rx="1" fill="#7c3aed"/>
+  <rect x="13" y="47" width="4" height="4" rx="0.5" fill="white"/>
+
+  <!-- QR data dots (bottom-right area) — stylized "D" shape -->
+  <rect x="42" y="42" width="5" height="5" rx="1" fill="white" opacity="0.9"/>
+  <rect x="50" y="42" width="5" height="5" rx="1" fill="white" opacity="0.9"/>
+  <rect x="42" y="50" width="5" height="5" rx="1" fill="white" opacity="0.9"/>
+  <rect x="50" y="50" width="5" height="5" rx="1" fill="white" opacity="0.5"/>
+  <rect x="58" y="42" width="5" height="5" rx="1" fill="white" opacity="0.9"/>
+  <rect x="58" y="50" width="5" height="5" rx="1" fill="white" opacity="0.9"/>
+
+  <!-- Middle data dots -->
+  <rect x="28" y="8" width="4" height="4" rx="1" fill="white" opacity="0.7"/>
+  <rect x="34" y="8" width="4" height="4" rx="1" fill="white" opacity="0.5"/>
+  <rect x="8" y="28" width="4" height="4" rx="1" fill="white" opacity="0.7"/>
+  <rect x="8" y="34" width="4" height="4" rx="1" fill="white" opacity="0.5"/>
+  <rect x="28" y="28" width="4" height="4" rx="1" fill="white" opacity="0.85"/>
+  <rect x="34" y="28" width="4" height="4" rx="1" fill="white" opacity="0.6"/>
+  <rect x="28" y="34" width="4" height="4" rx="1" fill="white" opacity="0.6"/>
+  <rect x="34" y="34" width="4" height="4" rx="1" fill="white" opacity="0.85"/>
+</svg>
